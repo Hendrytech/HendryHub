@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508438563627",
+    "project_id": "hendryhub-92bd7",
+    "storage_bucket": "hendryhub-92bd7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508438563627:android:5acd2cc26a2d1d96b9d36e",
+        "android_client_info": {
+          "package_name": "com.hendrytech.hendryhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOS1wBGTYLaoD6hyuz2yvZvtalvDvLfsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

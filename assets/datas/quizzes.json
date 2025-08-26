@@ -1,0 +1,1862 @@
+[
+  {
+    "question": "What does SSD stand for?",
+    "options": [
+      "Solid State Drive",
+      "Super Speed Disk",
+      "System Storage Device",
+      "Sequential Storage Drive"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which programming language uses 'print()' for output?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the default port for HTTPS?",
+    "options": [
+      "80",
+      "22",
+      "443",
+      "3306"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which company created the Python language?",
+    "options": [
+      "Microsoft",
+      "Google",
+      "Guido van Rossum",
+      "Apple"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the main purpose of a GPU?",
+    "options": [
+      "Running the OS",
+      "Processing graphics",
+      "Storing files",
+      "Managing RAM"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which OS is open-source?",
+    "options": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "iOS"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What does 'API' stand for?",
+    "options": [
+      "Automated Program Interface",
+      "Application Programming Interface",
+      "Advanced Programming Instruction",
+      "Active Protocol Integration"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which protocol is used for sending emails?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "SSH"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the binary equivalent of decimal '10'?",
+    "options": [
+      "1001",
+      "1010",
+      "1100",
+      "1111"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which tool is used for version control?",
+    "options": [
+      "Docker",
+      "Git",
+      "Kubernetes",
+      "Jenkins"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the extension for a JavaScript file?",
+    "options": [
+      ".java",
+      ".js",
+      ".py",
+      ".html"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which device converts digital signals to analog?",
+    "options": [
+      "Router",
+      "Modem",
+      "Switch",
+      "Hub"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'IoT' stand for?",
+    "options": [
+      "Internet of Things",
+      "Input/Output Technology",
+      "Integrated Online Tools",
+      "Internal Operating Thread"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which language is used for web styling?",
+    "options": [
+      "HTML",
+      "CSS",
+      "SQL",
+      "PHP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the largest unit of storage?",
+    "options": [
+      "Gigabyte (GB)",
+      "Terabyte (TB)",
+      "Petabyte (PB)",
+      "Kilobyte (KB)"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which encryption method is asymmetric?",
+    "options": [
+      "AES",
+      "RSA",
+      "DES",
+      "SHA-256"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the Linux kernel written in?",
+    "options": [
+      "Python",
+      "C",
+      "Java",
+      "Ruby"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which company owns GitHub?",
+    "options": [
+      "Google",
+      "Microsoft",
+      "Amazon",
+      "IBM"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'URL' stand for?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Reference Link",
+      "Unified Request Language",
+      "User Resource Library"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which language is compiled to bytecode?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "C#"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the main function of DNS?",
+    "options": [
+      "Encrypt data",
+      "Translate domain names to IPs",
+      "Store website content",
+      "Manage firewalls"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is NOT a NoSQL database?",
+    "options": [
+      "MongoDB",
+      "PostgreSQL",
+      "Cassandra",
+      "Redis"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the shortcut to paste on Windows?",
+    "options": [
+      "Ctrl + X",
+      "Ctrl + V",
+      "Ctrl + P",
+      "Ctrl + Z"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which tool is used for containerization?",
+    "options": [
+      "VirtualBox",
+      "Docker",
+      "VMware",
+      "Hyper-V"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'VPN' stand for?",
+    "options": [
+      "Virtual Private Network",
+      "Verified Public Node",
+      "Volatile Protocol Number",
+      "Virtual Packet Navigator"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which language is statically typed?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Ruby"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the primary use of Kubernetes?",
+    "options": [
+      "Version control",
+      "Container orchestration",
+      "Database management",
+      "Network routing"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which protocol is used for secure shell access?",
+    "options": [
+      "HTTP",
+      "SSH",
+      "FTP",
+      "SMTP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the capital of France?",
+    "options": [
+      "Berlin",
+      "Madrid",
+      "Paris",
+      "Rome"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which is a frontend framework?",
+    "options": [
+      "Django",
+      "Flask",
+      "React",
+      "Node.js"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What does 'SQL' stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Logic",
+      "System Query Layer",
+      "Sequential Question Line"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a cloud service provider?",
+    "options": [
+      "GitHub",
+      "AWS",
+      "Docker",
+      "Apache"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of '5 + 3 * 2' in Python?",
+    "options": [
+      "16",
+      "11",
+      "10",
+      "13"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which device operates at Layer 2 of the OSI model?",
+    "options": [
+      "Router",
+      "Switch",
+      "Hub",
+      "Modem"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of a firewall?",
+    "options": [
+      "Speed up internet",
+      "Block unauthorized access",
+      "Store backups",
+      "Manage emails"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a scripting language?",
+    "options": [
+      "C++",
+      "Bash",
+      "Java",
+      "Go"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the full form of 'PDF'?",
+    "options": [
+      "Printed Document Format",
+      "Portable Document Format",
+      "Personal Data File",
+      "Public Display File"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is NOT a JavaScript framework?",
+    "options": [
+      "Angular",
+      "Vue",
+      "Django",
+      "React"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the default file extension for Python scripts?",
+    "options": [
+      ".js",
+      ".py",
+      ".java",
+      ".txt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a relational database?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Cassandra"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'IDE' stand for?",
+    "options": [
+      "Integrated Development Environment",
+      "Internal Data Exchange",
+      "Interactive Design Element",
+      "Internet Data Encryption"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which protocol is used for dynamic IP assignment?",
+    "options": [
+      "DNS",
+      "DHCP",
+      "FTP",
+      "HTTP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main function of a compiler?",
+    "options": [
+      "Execute code line-by-line",
+      "Translate high-level code to machine code",
+      "Manage memory allocation",
+      "Debug errors"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a low-level programming language?",
+    "options": [
+      "Python",
+      "Assembly",
+      "Java",
+      "Ruby"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the primary use of TensorFlow?",
+    "options": [
+      "Web development",
+      "Machine learning",
+      "Database management",
+      "Networking"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is NOT a valid IP address?",
+    "options": [
+      "192.168.1.1",
+      "256.0.0.1",
+      "172.16.254.1",
+      "10.0.0.1"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'LAN' stand for?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Logical Address Number",
+      "Linked Application Network"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a stateless protocol?",
+    "options": [
+      "FTP",
+      "HTTP",
+      "SSH",
+      "SMTP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of a CDN?",
+    "options": [
+      "Store databases",
+      "Deliver content faster",
+      "Encrypt data",
+      "Manage emails"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a markup language?",
+    "options": [
+      "Python",
+      "HTML",
+      "SQL",
+      "Java"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of 'console.log(2 + '2')' in JavaScript?",
+    "options": [
+      "4",
+      "22",
+      "NaN",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a version of Unix?",
+    "options": [
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'BIOS' stand for?",
+    "options": [
+      "Basic Input/Output System",
+      "Binary Integrated Operating System",
+      "Boot Initialization Order Sequence",
+      "Byte Instruction Output Standard"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Python web framework?",
+    "options": [
+      "Django",
+      "React",
+      "Angular",
+      "Node.js"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main use of a proxy server?",
+    "options": [
+      "Store files",
+      "Act as an intermediary for requests",
+      "Run virtual machines",
+      "Manage databases"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a compiled language?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "C++",
+      "PHP"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the default port for SSH?",
+    "options": [
+      "21",
+      "22",
+      "80",
+      "443"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a non-relational database?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What does 'AI' stand for?",
+    "options": [
+      "Automated Input",
+      "Artificial Intelligence",
+      "Advanced Internet",
+      "Application Interface"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Windows package manager?",
+    "options": [
+      "apt",
+      "yum",
+      "Chocolatey",
+      "brew"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the main purpose of ARP?",
+    "options": [
+      "Encrypt data",
+      "Map IP addresses to MAC addresses",
+      "Route packets",
+      "Manage DNS"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a backend language?",
+    "options": [
+      "HTML",
+      "CSS",
+      "Node.js",
+      "React"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the full form of 'HTTP'?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Traffic Transmission Packet",
+      "Hosted Terminal Transaction Process",
+      "Hyperlink Text Transmission Process"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Linux distribution?",
+    "options": [
+      "Windows 10",
+      "Ubuntu",
+      "macOS",
+      "iOS"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'GPU' stand for?",
+    "options": [
+      "Graphical Processing Unit",
+      "General Processing Unit",
+      "Global Packet Utility",
+      "Gigabyte Performance Unit"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a NoSQL database?",
+    "options": [
+      "PostgreSQL",
+      "SQLite",
+      "Redis",
+      "MySQL"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the main function of a load balancer?",
+    "options": [
+      "Store data",
+      "Distribute network traffic",
+      "Encrypt files",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a scripting language for the web?",
+    "options": [
+      "C#",
+      "JavaScript",
+      "Java",
+      "Go"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of '3 == '3'' in JavaScript?",
+    "options": [
+      "true",
+      "false",
+      "NaN",
+      "Error"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a virtualization platform?",
+    "options": [
+      "Docker",
+      "Kubernetes",
+      "VirtualBox",
+      "Git"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What does 'RAM' stand for?",
+    "options": [
+      "Random Access Memory",
+      "Read-Only Memory",
+      "Redundant Array of Memory",
+      "Runtime Allocation Module"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Microsoft product?",
+    "options": [
+      "macOS",
+      "Linux",
+      "Windows",
+      "Android"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the main use of 'git clone'?",
+    "options": [
+      "Delete a repository",
+      "Copy a repository locally",
+      "Create a branch",
+      "Merge code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a dynamic programming language?",
+    "options": [
+      "C",
+      "Java",
+      "Python",
+      "Go"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the default port for MySQL?",
+    "options": [
+      "80",
+      "3306",
+      "5432",
+      "27017"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a frontend technology?",
+    "options": [
+      "Node.js",
+      "Django",
+      "CSS",
+      "Flask"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What does 'DNS' stand for?",
+    "options": [
+      "Domain Name System",
+      "Dynamic Network Service",
+      "Data Naming Standard",
+      "Digital Node Security"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a cloud computing model?",
+    "options": [
+      "SaaS",
+      "HTTP",
+      "FTP",
+      "SQL"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main purpose of 'HTTPS'?",
+    "options": [
+      "Speed up websites",
+      "Secure communication over a network",
+      "Store cookies",
+      "Manage databases"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python data analysis library?",
+    "options": [
+      "React",
+      "Pandas",
+      "Django",
+      "TensorFlow"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of '10 / 3' in Python?",
+    "options": [
+      "3",
+      "3.333...",
+      "3.0",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a network protocol?",
+    "options": [
+      "HTML",
+      "TCP/IP",
+      "CSS",
+      "JavaScript"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'JSON' stand for?",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Standard Output Network",
+      "Jumbled Syntax Order Number",
+      "Joined System Online Node"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Microsoft cloud service?",
+    "options": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "IBM Cloud"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main function of 'ping'?",
+    "options": [
+      "Encrypt data",
+      "Test network connectivity",
+      "Manage files",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a backend framework?",
+    "options": [
+      "React",
+      "Angular",
+      "Express.js",
+      "Vue"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the full form of 'OS'?",
+    "options": [
+      "Operating System",
+      "Open Source",
+      "Output Standard",
+      "Optical Storage"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a version control platform?",
+    "options": [
+      "Docker",
+      "GitHub",
+      "Kubernetes",
+      "Jenkins"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'CSS' stand for?",
+    "options": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style System",
+      "Common Scripting Syntax"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a machine learning library?",
+    "options": [
+      "Django",
+      "Flask",
+      "TensorFlow",
+      "React"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the output of 'True and False' in Python?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a wireless communication technology?",
+    "options": [
+      "Ethernet",
+      "Bluetooth",
+      "USB",
+      "HDMI"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'FTP' stand for?",
+    "options": [
+      "File Transfer Protocol",
+      "Fast Transmission Packet",
+      "Fiber Termination Point",
+      "Full Text Processing"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Google product?",
+    "options": [
+      "Azure",
+      "AWS",
+      "Google Cloud",
+      "IBM Cloud"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the main purpose of 'NAT'?",
+    "options": [
+      "Encrypt data",
+      "Translate private IPs to public IPs",
+      "Manage DNS",
+      "Store files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python testing framework?",
+    "options": [
+      "JUnit",
+      "pytest",
+      "Mocha",
+      "Jasmine"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of 'len('hello')' in Python?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a container orchestration tool?",
+    "options": [
+      "Docker",
+      "Kubernetes",
+      "VirtualBox",
+      "VMware"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'HTML' stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "High-Level Machine Language",
+      "Hosted Text Management Layer",
+      "Hyperlink and Text Management Logic"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Microsoft database?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "SQL Server",
+      "MongoDB"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the main function of 'CDN'?",
+    "options": [
+      "Store databases",
+      "Deliver content faster globally",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python GUI library?",
+    "options": [
+      "React",
+      "Tkinter",
+      "Django",
+      "Flask"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of '2 ** 3' in Python?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a network topology?",
+    "options": [
+      "Star",
+      "Python",
+      "Java",
+      "HTML"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does 'VPN' stand for?",
+    "options": [
+      "Virtual Private Network",
+      "Verified Public Node",
+      "Visual Packet Navigator",
+      "Volatile Protocol Number"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Google framework?",
+    "options": [
+      "React",
+      "Angular",
+      "Vue",
+      "Django"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of 'OOP'?",
+    "options": [
+      "Manage networks",
+      "Structure code using objects",
+      "Encrypt data",
+      "Store files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python web scraper library?",
+    "options": [
+      "NumPy",
+      "BeautifulSoup",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of '10 % 3' in Python?",
+    "options": [
+      "3",
+      "1",
+      "0",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a network security tool?",
+    "options": [
+      "Wireshark",
+      "Docker",
+      "Kubernetes",
+      "Git"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does 'SQL' stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Question Logic",
+      "System Query Layer",
+      "Sequential Query Line"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Facebook product?",
+    "options": [
+      "Angular",
+      "React",
+      "Vue",
+      "Django"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of 'REST API'?",
+    "options": [
+      "Store databases",
+      "Enable communication between systems",
+      "Encrypt files",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python ORM library?",
+    "options": [
+      "NumPy",
+      "SQLAlchemy",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of 'bool(0)' in Python?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a network monitoring tool?",
+    "options": [
+      "Nagios",
+      "Docker",
+      "Kubernetes",
+      "Git"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does 'XML' stand for?",
+    "options": [
+      "Extensible Markup Language",
+      "Extra Memory Layer",
+      "Xerox Module Logic",
+      "Extended Machine Language"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is an Apple product?",
+    "options": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of 'CI/CD'?",
+    "options": [
+      "Store data",
+      "Automate software delivery",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python async library?",
+    "options": [
+      "asyncio",
+      "NumPy",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the output of '3 * 'a'' in Python?",
+    "options": [
+      "aaa",
+      "3a",
+      "Error",
+      "None"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a web server?",
+    "options": [
+      "Apache",
+      "Docker",
+      "Kubernetes",
+      "Git"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does 'API' stand for?",
+    "options": [
+      "Automated Program Interface",
+      "Application Programming Interface",
+      "Advanced Protocol Integration",
+      "Active Packet Inspection"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Microsoft programming language?",
+    "options": [
+      "Java",
+      "C#",
+      "Python",
+      "Ruby"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of 'Agile'?",
+    "options": [
+      "Store data",
+      "Iterative software development",
+      "Encrypt files",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python math library?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Scikit-learn"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the output of 'not True' in Python?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a version control command?",
+    "options": [
+      "docker run",
+      "git commit",
+      "kubectl apply",
+      "npm install"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'IDE' stand for?",
+    "options": [
+      "Integrated Development Environment",
+      "Internal Data Exchange",
+      "Interactive Design Element",
+      "Internet Data Encryption"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Google browser?",
+    "options": [
+      "Firefox",
+      "Safari",
+      "Chrome",
+      "Edge"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the main purpose of 'Big Data'?",
+    "options": [
+      "Store small datasets",
+      "Analyze large datasets",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python visualization library?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Scikit-learn"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the output of '7 // 2' in Python?",
+    "options": [
+      "3.5",
+      "3",
+      "4",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a cloud storage service?",
+    "options": [
+      "GitHub",
+      "Dropbox",
+      "Docker",
+      "Kubernetes"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'IoT' stand for?",
+    "options": [
+      "Internet of Things",
+      "Input/Output Technology",
+      "Integrated Online Tools",
+      "Internal Operating Thread"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Mozilla product?",
+    "options": [
+      "Chrome",
+      "Firefox",
+      "Edge",
+      "Safari"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of 'Blockchain'?",
+    "options": [
+      "Store data centrally",
+      "Decentralized secure transactions",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python machine learning library?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the output of '0o10' in Python?",
+    "options": [
+      "10",
+      "8",
+      "16",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Microsoft Office product?",
+    "options": [
+      "Photoshop",
+      "Excel",
+      "Premiere",
+      "Illustrator"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'AI' stand for?",
+    "options": [
+      "Automated Input",
+      "Artificial Intelligence",
+      "Advanced Internet",
+      "Application Interface"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is an Adobe product?",
+    "options": [
+      "Photoshop",
+      "Excel",
+      "Word",
+      "PowerPoint"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main purpose of 'DevOps'?",
+    "options": [
+      "Store data",
+      "Bridge development and operations",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python web framework?",
+    "options": [
+      "Flask",
+      "React",
+      "Angular",
+      "Vue"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the output of 'hex(255)' in Python?",
+    "options": [
+      "'0xff'",
+      "'0x255'",
+      "'255'",
+      "Error"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a Google search algorithm?",
+    "options": [
+      "Bing",
+      "PageRank",
+      "Yahoo",
+      "DuckDuckGo"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'URL' stand for?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Reference Link",
+      "Unified Request Language",
+      "User Resource Library"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a video conferencing tool?",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Trello",
+      "Jira"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of 'SEO'?",
+    "options": [
+      "Secure data",
+      "Improve website visibility",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python testing tool?",
+    "options": [
+      "JUnit",
+      "pytest",
+      "Mocha",
+      "Jasmine"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of 'bin(10)' in Python?",
+    "options": [
+      "'0b1010'",
+      "'0b10'",
+      "'10'",
+      "Error"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a project management tool?",
+    "options": [
+      "Git",
+      "Jira",
+      "Docker",
+      "Kubernetes"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'CSS' stand for?",
+    "options": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style System",
+      "Common Scripting Syntax"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a note-taking app?",
+    "options": [
+      "Evernote",
+      "Slack",
+      "Trello",
+      "Jira"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main purpose of 'CRM'?",
+    "options": [
+      "Store code",
+      "Manage customer relationships",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python automation library?",
+    "options": [
+      "Selenium",
+      "NumPy",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the output of 'ord('A')' in Python?",
+    "options": [
+      "65",
+      "97",
+      "'A'",
+      "Error"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a code editor?",
+    "options": [
+      "Photoshop",
+      "VS Code",
+      "Excel",
+      "PowerPoint"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What does 'PDF' stand for?",
+    "options": [
+      "Printed Document Format",
+      "Portable Document Format",
+      "Personal Data File",
+      "Public Display File"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a team collaboration tool?",
+    "options": [
+      "Slack",
+      "Photoshop",
+      "Premiere",
+      "Illustrator"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main purpose of 'ERP'?",
+    "options": [
+      "Store code",
+      "Integrate business processes",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python data visualization library?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "Seaborn",
+      "Scikit-learn"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the output of 'chr(97)' in Python?",
+    "options": [
+      "'97'",
+      "'a'",
+      "'A'",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a diagramming tool?",
+    "options": [
+      "Figma",
+      "Photoshop",
+      "Illustrator",
+      "Premiere"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does 'CRM' stand for?",
+    "options": [
+      "Code Repository Management",
+      "Customer Relationship Management",
+      "Central Resource Module",
+      "Computer Resource Monitor"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a design tool?",
+    "options": [
+      "Figma",
+      "Excel",
+      "Word",
+      "PowerPoint"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main purpose of 'CMS'?",
+    "options": [
+      "Store code",
+      "Manage website content",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python web scraping library?",
+    "options": [
+      "Scrapy",
+      "NumPy",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the output of 'abs(-10)' in Python?",
+    "options": [
+      "-10",
+      "10",
+      "0",
+      "Error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a prototyping tool?",
+    "options": [
+      "Figma",
+      "Photoshop",
+      "Illustrator",
+      "Premiere"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does 'ERP' stand for?",
+    "options": [
+      "External Resource Protocol",
+      "Enterprise Resource Planning",
+      "Encrypted Routing Process",
+      "Error Recovery Protocol"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a video editing tool?",
+    "options": [
+      "Premiere",
+      "Photoshop",
+      "Illustrator",
+      "Figma"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main purpose of 'CMS'?",
+    "options": [
+      "Store code",
+      "Manage website content",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python data analysis library?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Scikit-learn"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the output of 'round(3.14159, 2)' in Python?",
+    "options": [
+      "3.14",
+      "3.1",
+      "3.0",
+      "Error"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is a vector graphics tool?",
+    "options": [
+      "Illustrator",
+      "Photoshop",
+      "Premiere",
+      "Figma"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does 'CMS' stand for?",
+    "options": [
+      "Code Management System",
+      "Content Management System",
+      "Central Monitoring Service",
+      "Computer Memory Storage"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a raster graphics tool?",
+    "options": [
+      "Illustrator",
+      "Photoshop",
+      "Figma",
+      "Premiere"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the main purpose of 'CDN'?",
+    "options": [
+      "Store databases",
+      "Deliver content faster globally",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python scientific computing library?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Scikit-learn"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the output of 'max(1, 2, 3)' in Python?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which is a 3D modeling tool?",
+    "options": [
+      "Blender",
+      "Photoshop",
+      "Illustrator",
+      "Figma"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does 'CDN' stand for?",
+    "options": [
+      "Content Delivery Network",
+      "Central Data Node",
+      "Coded Digital Number",
+      "Computer Device Network"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is an audio editing tool?",
+    "options": [
+      "Audacity",
+      "Photoshop",
+      "Illustrator",
+      "Figma"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main purpose of 'DNS'?",
+    "options": [
+      "Store files",
+      "Translate domain names to IPs",
+      "Encrypt emails",
+      "Debug code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a Python deep learning library?",
+    "options": [
+      "TensorFlow",
+      "NumPy",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "answerIndex": 0
+  }
+]
