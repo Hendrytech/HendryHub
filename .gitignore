@@ -43,3 +43,24 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ================================
+# Custom ignores for HendryHub
+# ================================
+
+# Large AI model files (don’t upload to GitHub)
+*.gguf
+*.bin
+*.task
+*.pt
+*.onnx
+
+# Specifically ignore Gemma model
+assets/models/Gemma-3-1b-it-qat-Q4_K_M.task
+
+# If you add more models later, ignore whole models folder
+/assets/models/
+
+# Ignore Gemma model files
+assets/models/
+*.task
