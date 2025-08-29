@@ -64,3 +64,6 @@ assets/models/Gemma-3-1b-it-qat-Q4_K_M.task
 # Ignore Gemma model files
 assets/models/
 *.task
+
+# Secrets
+.env
