@@ -40,19 +40,19 @@ class _HomeScreenState extends State<HomeScreen> {
     super.didChangeDependencies();
     final nowDark = Theme.of(context).brightness == Brightness.dark;
     if (nowDark != _isDarkMode) {
-      _isDarkMode = nowDark; // no setState to avoid extra build
+      _isDarkMode = nowDark; // avoid extra build
     }
   }
 
   void _loadAllData() {
-    _videosFuture = _youTubeService.fetchVideos(maxResults: 6);
+    // 🔁 GitHub-powered service (no maxResults here)
+    _videosFuture = _youTubeService.fetchVideos();
     _aiTipFuture = LocalDataService.loadRandomTip();
     _quizFuture = LocalDataService.loadRandomQuiz();
   }
 
-  void _retryVideos() => setState(
-    () => _videosFuture = _youTubeService.fetchVideos(maxResults: 6),
-  );
+  void _retryVideos() =>
+      setState(() => _videosFuture = _youTubeService.fetchVideos());
   void _retryTip() =>
       setState(() => _aiTipFuture = LocalDataService.loadRandomTip());
   void _retryQuiz() =>
@@ -105,14 +105,41 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(12),
-              child: Image.network(
-                video.thumbnailUrl,
-                height: 120,
-                width: double.infinity,
-                fit: BoxFit.cover,
-              ),
+            Stack(
+              children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: Image.network(
+                    video.thumbnailUrl,
+                    height: 120,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                if (video.duration != null && video.duration!.isNotEmpty)
+                  Positioned(
+                    right: 6,
+                    bottom: 6,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 6,
+                        vertical: 2,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.black87,
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      child: Text(
+                        video.duration!,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                  ),
+              ],
             ),
             const SizedBox(height: 6),
             Text(
@@ -239,7 +266,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 24),
 
-              // 🔥 Latest Videos
+              // 🔥 Latest Videos (limit to 6 here)
               _section(
                 title: '🔥 Latest Videos',
                 child: SizedBox(
@@ -251,11 +278,13 @@ class _HomeScreenState extends State<HomeScreen> {
                         return const Center(child: CircularProgressIndicator());
                       }
                       if (snap.hasError) {
-                        final msg = 'Failed to load videos.';
-                        return _buildErrorSection(msg, _retryVideos);
+                        return _buildErrorSection(
+                          'Failed to load videos.',
+                          _retryVideos,
+                        );
                       }
-                      final videos = snap.data ?? const <YouTubeVideo>[];
-                      if (videos.isEmpty) {
+                      final all = (snap.data ?? const <YouTubeVideo>[]);
+                      if (all.isEmpty) {
                         return const Center(
                           child: Text(
                             'No videos found.',
@@ -263,6 +292,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         );
                       }
+                      final videos = all.take(6).toList();
                       return ListView(
                         scrollDirection: Axis.horizontal,
                         children: videos.map(_buildVideoCard).toList(),
@@ -318,12 +348,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         _retryQuiz,
                       );
                     }
-
-                    // If the quiz arrived but we didn't yet prepare it (rare race),
-                    // prepare it now. This ensures shuffle is initialized quickly.
-                    // _prepareQuiz uses setState internally but it's safe because it's called
-                    // only when the question changes.
-
                     return _buildQuiz(snap.data!);
                   },
                 ),
@@ -371,7 +395,7 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 /// Small dedicated page for playing a single YouTube video using the iFrame player.
-/// This works on both Android and iOS and supports fullscreen.
+/// Works on Android and iOS and supports fullscreen.
 class _YouTubePlayerPage extends StatefulWidget {
   final String videoId;
   final String title;
@@ -395,6 +419,7 @@ class _YouTubePlayerPageState extends State<_YouTubePlayerPage> {
         showFullscreenButton: true,
         showControls: true,
         enableCaption: true,
+        playsInline: true, // ✅ better iOS behavior
         strictRelatedVideos: true,
       ),
     );
@@ -413,7 +438,13 @@ class _YouTubePlayerPageState extends State<_YouTubePlayerPage> {
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       builder: (context, player) {
         return Scaffold(
-          appBar: AppBar(title: Text(widget.title)),
+          appBar: AppBar(
+            title: Text(
+              widget.title,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
           body: Center(
             child: AspectRatio(aspectRatio: 16 / 9, child: player),
           ),

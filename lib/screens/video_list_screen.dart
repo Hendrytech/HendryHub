@@ -1,5 +1,4 @@
 // lib/screens/video_list_screen.dart
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -18,6 +17,7 @@ class _VideoListScreenState extends State<VideoListScreen> {
   List<YouTubeVideo> _videos = [];
   List<YouTubeVideo> _filteredVideos = [];
   bool _isLoading = true;
+  String? _errorMessage;
 
   @override
   void initState() {
@@ -26,6 +26,10 @@ class _VideoListScreenState extends State<VideoListScreen> {
   }
 
   Future<void> _loadVideos() async {
+    setState(() {
+      _isLoading = true;
+      _errorMessage = null;
+    });
     try {
       final videos = await _youtubeService.fetchVideos();
       setState(() {
@@ -34,12 +38,10 @@ class _VideoListScreenState extends State<VideoListScreen> {
         _isLoading = false;
       });
     } catch (e) {
-      setState(() => _isLoading = false);
-      if (mounted) {
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: Text('Error loading videos: $e')));
-      }
+      setState(() {
+        _isLoading = false;
+        _errorMessage = 'Error loading videos: $e';
+      });
     }
   }
 
@@ -81,7 +83,7 @@ class _VideoListScreenState extends State<VideoListScreen> {
                   ),
                 ),
               ),
-              if (video.duration != null)
+              if (video.duration != null && video.duration!.isNotEmpty)
                 Positioned(
                   bottom: 4,
                   right: 4,
@@ -150,10 +152,12 @@ class _VideoListScreenState extends State<VideoListScreen> {
       backgroundColor: const Color(0xFF111418),
       appBar: AppBar(
         title: const Text('📽️ All Videos'),
-        backgroundColor: const Color(0xFF2563EB),
+        backgroundColor: const Color(0xFF111418),
+        centerTitle: true,
       ),
       body: Column(
         children: [
+          // 🔍 Search bar
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
             child: Container(
@@ -174,9 +178,35 @@ class _VideoListScreenState extends State<VideoListScreen> {
               ),
             ),
           ),
+
+          // 📺 List
           Expanded(
             child: _isLoading
                 ? const Center(child: CircularProgressIndicator())
+                : _errorMessage != null
+                ? Center(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          _errorMessage!,
+                          style: const TextStyle(color: Colors.red),
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 8),
+                        ElevatedButton(
+                          onPressed: _loadVideos,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                          child: const Text('Retry'),
+                        ),
+                      ],
+                    ),
+                  )
                 : _filteredVideos.isEmpty
                 ? const Center(
                     child: Text(

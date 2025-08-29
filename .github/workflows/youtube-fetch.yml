@@ -1,0 +1,78 @@
+name: Fetch YouTube Videos
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # Runs once a day at midnight UTC
+  workflow_dispatch:      # Allow manual run from GitHub Actions tab
+
+jobs:
+  fetch-videos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install node-fetch@2
+
+      - name: Debug API key
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "❌ API key is missing!"
+            exit 1
+          else
+            echo "✅ API key length: ${#YOUTUBE_API_KEY}"
+          fi
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Fetch YouTube videos
+        run: |
+          node <<'EOF'
+          const fs = require('fs');
+          const fetch = require('node-fetch');
+
+          const API_KEY = process.env.YOUTUBE_API_KEY;
+          const CHANNEL_ID = "UCFR5X_YpP25n2y6CFOw4ILQ"; // your channel
+          const MAX_RESULTS = 20;
+
+          async function fetchVideos() {
+            const url = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${CHANNEL_ID}&part=snippet,id&order=date&type=video&maxResults=${MAX_RESULTS}`;
+            console.log("Fetching:", url);
+
+            const res = await fetch(url);
+            if (!res.ok) throw new Error(`Failed to fetch YouTube API: ${res.status} ${res.statusText}`);
+            const data = await res.json();
+
+            const videos = data.items.map(item => ({
+              videoId: item.id.videoId,
+              title: item.snippet.title,
+              thumbnailUrl: item.snippet.thumbnails.medium.url,
+              publishedAt: item.snippet.publishedAt
+            }));
+
+            fs.writeFileSync("assets/videos.json", JSON.stringify(videos, null, 2));
+            console.log("✅ Saved videos.json with", videos.length, "videos");
+          }
+
+          fetchVideos().catch(err => {
+            console.error("❌ Error fetching videos", err);
+            process.exit(1);
+          });
+          EOF
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Commit and push updated JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/videos.json
+          git commit -m "Update videos.json [skip ci]" || echo "No changes"
+          git push
